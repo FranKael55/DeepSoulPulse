@@ -90,21 +90,43 @@
     animation: pulse 1.4s linear infinite normal;
   }
   .layout .s1 {
-    background-color: #4d2536;
+ /*   background-color: #4d2536; */
+    background-color: #fff;
     transform: translateY(0);
     z-index: 4;
   }
   .layout .s2 {
-    background-color: #02486b;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(63,239,217,1) 100%);
     z-index: 3;
   }
   .layout .s3 {
     z-index: 2;
-    background-color: lightgreen;
+    background: rgb(63,239,217);
+    background: linear-gradient(180deg, rgba(63,239,217,1) 20%, rgba(54,51,216,1) 100%);
     opacity: 1;
   }
   .layout .s4 {
-    background-color: #154621;
+    background: rgb(54,51,216);
+    background: linear-gradient(180deg, rgba(54,51,216,1) 20%, rgba(225,70,217,1) 100%);  
+    z-index: 1;
+  }
+
+  .layout .s5 {
+    background: rgb(225,70,217);
+    background: linear-gradient(180deg, rgba(225,70,217,1) 20%, rgba(238,40,25,1) 100%);
+    z-index: 1;
+  }
+
+  .layout .s6 {
+    background: rgb(238,40,25);
+    background: linear-gradient(180deg, rgba(238,40,25,1) 20%, rgba(152,252,61,1) 100%);
+    z-index: 1;
+  }
+
+  .layout .s7 {
+    background: rgb(152,252,61);
+    background: linear-gradient(180deg, rgba(152,252,61,1) 20%, rgba(255,255,255,1) 100%);
     z-index: 1;
   }
 
