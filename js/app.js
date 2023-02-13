@@ -55,3 +55,52 @@ window.onscroll = () => {
   window.scroll(0, window.screen.height)
 }
 
+// ---------------------------  Effects  ---------------------------
+
+// Variables & Constants
+
+const texto_1_s2 = document.getElementById('texto_1_s2');
+const texto_2_s2 = document.getElementById('texto_2_s2');
+const title_1_s3 = document.getElementById('title_1_s3');
+const text_1_s3 = document.getElementById('text_1_s3');
+const title_1_s4 = document.getElementById('title_1_s4');
+const area_1_s4 = document.getElementById('area_1_s4');
+const area_2_s4 = document.getElementById('area_2_s4');
+const area_3_s4 = document.getElementById('area_3_s4');
+const area_4_s4 = document.getElementById('area_4_s4');
+const dog_img = document.getElementById('dog_img');
+const flower_img = document.getElementById('flower_img');
+// const title_1_s5 = document.getElementById('title_1_s5');
+//const letter1_s5 = document.getElementById('letter1_s5');
+
+
+const cargarImagen = (entradas, observador) => {
+      entradas.forEach((entradas) => {
+        if(entradas.isIntersecting){
+          entradas.target.classList.add('visible');}
+        else{
+          entradas.target.classList.remove('visible');
+        }
+        })
+      }
+
+
+const observador = new IntersectionObserver(cargarImagen, {
+    root: null,
+    rootMargin: '0px 0px 0px 0px',
+    threshold: 0
+});
+
+observador.observe(texto_1_s2);
+observador.observe(texto_2_s2);
+observador.observe(title_1_s3);
+observador.observe(text_1_s3);
+observador.observe(title_1_s4);
+observador.observe(area_1_s4);
+observador.observe(area_2_s4);
+observador.observe(area_3_s4);
+observador.observe(area_4_s4);
+observador.observe(dog_img);
+observador.observe(flower_img);
+//observador.observe(title_1_s5);
+//observador.observe(letter1_s5);
