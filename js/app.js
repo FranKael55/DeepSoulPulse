@@ -71,15 +71,30 @@ const area_4_s4 = document.getElementById('area_4_s4');
 const dog_img = document.getElementById('dog_img');
 const flower_img = document.getElementById('flower_img');
 // const title_1_s5 = document.getElementById('title_1_s5');
-//const letter1_s5 = document.getElementById('letter1_s5');
+const d_s5 = document.getElementById('d_s5');
+const d_letters = document.getElementById('d_letters');
+const d_letter = document.getElementById('d_letter');
+const d_text = document.getElementById('d_text');
+const e1_s5 = document.getElementById('e1_s5');
+const e1_letters = document.getElementById('e1_letters');
+const e1_letter = document.getElementById('e1_letter');
+const e1_text = document.getElementById('e1_text');
+const e2_s5 = document.getElementById('e2_s5');
+const e2_letters = document.getElementById('e2_letters');
+const e2_letter = document.getElementById('e2_letter');
+const e2_text = document.getElementById('e2_text');
+const p_s5 = document.getElementById('p_s5');
+const p_letters = document.getElementById('p_letters');
+const p_letter = document.getElementById('p_letter');
+const p_text = document.getElementById('p_text');
 
 
 const cargarImagen = (entradas, observador) => {
-      entradas.forEach((entradas) => {
-        if(entradas.isIntersecting){
-          entradas.target.classList.add('visible');}
+      entradas.forEach((entrada) => {
+        if(entrada.isIntersecting){
+          entrada.target.classList.add('visible');}
         else{
-          entradas.target.classList.remove('visible');
+          entrada.target.classList.remove('visible');
         }
         })
       }
@@ -102,5 +117,20 @@ observador.observe(area_3_s4);
 observador.observe(area_4_s4);
 observador.observe(dog_img);
 observador.observe(flower_img);
-//observador.observe(title_1_s5);
-//observador.observe(letter1_s5);
+// observador.observe(title_1_s5);
+observador.observe(d_letters);
+observador.observe(d_text);
+observador.observe(d_letter);
+observador.observe(d_s5);
+observador.observe(e1_letters);
+observador.observe(e1_text);
+observador.observe(e1_letter);
+observador.observe(e1_s5);
+observador.observe(e2_letters);
+observador.observe(e2_text);
+observador.observe(e2_letter);
+observador.observe(e2_s5);
+observador.observe(p_letters);
+observador.observe(p_text);
+observador.observe(p_letter);
+observador.observe(p_s5);
