@@ -22,43 +22,16 @@
 
   @keyframes pulse_down {
     0% {
-      transform: translateY(0px);
-    }
-    50% {
       transform: translateY(25px);
     }
-    100% {
+    50% {
       transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(25px);
     }
   }
 
-
-/****  ANIMATIONS  ---  Section 5  ****/
-
-/* @keyframes d_letter {
-  0% {
-    color: rgb(255, 255, 255);
-    top: 50%;
-    left: 35.5%;;
-  }
-  50%{
-    font-size: 1.3rem;
-    color: rgb(255, 255, 255);
-    
-    left: 15.5%;
-  }
-  70%{
-    font-size: 1.6rem;
-    color: rgb(255, 255, 255);
-    
-    left: 5.5%;
-  }
-  
-  100%{
-
-  }
-}
-*/
 
 
 /************  HTML  ************/
@@ -258,6 +231,8 @@
   }
 
   .layout .s3 #s3_content{
+    position: relative;
+    top:10%;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -464,30 +439,18 @@
     z-index: 1;
   }
 
-
-
-  .layout .s5 #title_1_s5{
-    font-size: 2rem;
-    text-align: center;
+  .layout .s5 #deep_s5 img{
     position: absolute;
-    top:15%;
-    /* transform: scale(0.9);
-    opacity: 1;
-    transition-timing-function: ease-in-out all;
-    transition-duration: 1s;
-    transition-delay: 0.4s; */
+    transform: translate(-50%, -50%);
+    width: 20%;
   }
-/* 
-  .layout .s5 #title_1_s5.visible{
-    opacity: 1;
-    font-size: 2rem;
-    transform: scale(1);
-  } */
+
 
 /************ D letter ************/
 
   .layout .s5 #deep_s5 #d_s5{
     position: absolute;
+    opacity: 0;
     top: 50%;
     left: 50%;
     transform: translate(-20%, -20%);
@@ -497,6 +460,7 @@
   }
 
   .layout .s5 #deep_s5 #d_s5.visible{
+    opacity: 1;
     top: 50%;
     left: 10%;
     transform: translate(-9%, 100%);
@@ -510,8 +474,8 @@
     font-size: 2rem;
     transform: translate(-30%, -60%);
     transition-timing-function: ease-in-out all;
-    transition-duration: 3s;
-    transition-delay: 3s;
+    transition-duration: 1s;
+    transition-delay: 2s;
   }
   
    .layout .s5 #deep_s5 #d_s5 #d_letters.visible{
@@ -519,35 +483,15 @@
     font-size: 2rem;
   }
 
-  .layout .s5 #deep_s5 #d_s5 #d_letter{
-  top: 40%;
-  left: 50%;
-  font-size: 4rem;
-  transform: translate(-30%, -60%);
-  opacity: 0.8;
-  color: rgb(48, 48, 48);
-  transition-timing-function: ease-in-out all;
-  transition-duration: 2s;
-  transition-delay: 2s;
-  }
-
-  .layout .s5 #deep_s5 #d_s5 #d_letter.visible{
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    opacity: 1;
-  }
-
   .layout .s5 #deep_s5 #d_s5 #d_text{
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     text-align: justify;
     font-weight: 400;
-    margin: 0px;
-    padding: 0px;
     font-size: 1rem;
     transition-timing-function: ease-in-out all;
-    transition-duration: 3s;
-    transition-delay: 3s;
+    transition-duration: 2s;
+    transition-delay: 1s;
   }
 
   .layout .s5 #deep_s5 #d_s5 #d_text.visible{
@@ -558,15 +502,17 @@
 
   .layout .s5 #deep_s5 #e1_s5{
     position: absolute;
+    opacity: 0;
     top: 50%;
     left: 50%;
     transform: translate(-11%, -20%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 1s;
+    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #e1_s5.visible{
+    opacity: 1;
     top: 10%;
     left: 10%;
     transform: translate(-10%, -10%);
@@ -580,31 +526,13 @@
     font-size: 2rem;
     transform: translate(-30%, -60%);
     transition-timing-function: ease-in-out all;
-    transition-duration: 3s;
+    transition-duration: 1s;
     transition-delay: 2s;
   }
   
    .layout .s5 #deep_s5 #e1_s5 #e1_letters.visible{
     opacity: 1;
     font-size: 2rem;
-  }
-
-  .layout .s5 #deep_s5 #e1_s5 #e1_letter{
-  top: 40%;
-  left: 50%;
-  font-size: 4rem;
-  transform: translate(-30%, -60%);
-  opacity: 0.8;
-  color: rgb(48, 48, 48);
-  transition-timing-function: ease-in-out all;
-  transition-duration: 2s;
-  transition-delay: 1s;
-  }
-
-  .layout .s5 #deep_s5 #e1_s5 #e1_letter.visible{
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    opacity: 1;
   }
 
   .layout .s5 #deep_s5 #e1_s5 #e1_text{
@@ -616,8 +544,8 @@
     padding: 0px;
     font-size: 1rem;
     transition-timing-function: ease-in-out all;
-    transition-duration: 3s;
-    transition-delay: 3s;
+    transition-duration: 1s;
+    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #e1_s5 #e1_text.visible{
@@ -628,15 +556,17 @@
 
   .layout .s5 #deep_s5 #e2_s5{
     position: absolute;
+    opacity: 0;
     top: 50%;
     left: 50%;
     transform: translate(-1%, -20%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2.5s;
+    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #e2_s5.visible{
+    opacity: 1;
     top: 10%;
     left: 70%;
     transform: translate(-10%, -10%);
@@ -650,31 +580,13 @@
     font-size: 2rem;
     transform: translate(-30%, -60%);
     transition-timing-function: ease-in-out all;
-    transition-duration: 3s;
-    transition-delay: 3.5s;
+    transition-duration: 1s;
+    transition-delay: 2s;
   }
   
    .layout .s5 #deep_s5 #e2_s5 #e2_letters.visible{
     opacity: 1;
     font-size: 2rem;
-  }
-
-  .layout .s5 #deep_s5 #e2_s5 #e2_letter{
-  top: 40%;
-  left: 50%;
-  font-size: 4rem;
-  transform: translate(-30%, -60%);
-  opacity: 0.8;
-  color: rgb(48, 48, 48);
-  transition-timing-function: ease-in-out all;
-  transition-duration: 2s;
-  transition-delay: 2.5s;
-  }
-
-  .layout .s5 #deep_s5 #e2_s5 #e2_letter.visible{
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    opacity: 1;
   }
 
   .layout .s5 #deep_s5 #e2_s5 #e2_text{
@@ -686,8 +598,8 @@
     padding: 0px;
     font-size: 1rem;
     transition-timing-function: ease-in-out all;
-    transition-duration: 3s;
-    transition-delay: 4.5s;
+    transition-duration: 1s;
+    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #e2_s5 #e2_text.visible{
@@ -698,53 +610,39 @@
 
   .layout .s5 #deep_s5 #p_s5{
     position: absolute;
+    opacity: 0;
     top: 50%;
     left: 50%;
-    transform: translate(13%, -20%);
+    width: 25%;
+    transform: translate(-30%, -60%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 1.5s;
+    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #p_s5.visible{
+    opacity: 1;
     top: 45.5%;
     left: 10%;
     transform: translate(-15%, -100%);
   }
 
   .layout .s5 #deep_s5 #p_s5 #p_letters{
-    opacity: 0;
+    opacity: 0.8%;
     color: rgb(255, 255, 255);
     top: 40%;
     left: 50%;
     font-size: 2rem;
     transform: translate(-30%, -60%);
     transition-timing-function: ease-in-out all;
-    transition-duration: 3s;
-    transition-delay: 2.5s;
+    transition-duration: 1s;
+    transition-delay: 2s;
   }
   
    .layout .s5 #deep_s5 #p_s5 #p_letters.visible{
+    margin-left: 0px;
     opacity: 1;
     font-size: 2rem;
-  }
-
-  .layout .s5 #deep_s5 #p_s5 #p_letter{
-  top: 40%;
-  left: 50%;
-  font-size: 4rem;
-  transform: translate(-30%, -60%);
-  opacity: 0.8;
-  color: rgb(48, 48, 48);
-  transition-timing-function: ease-in-out all;
-  transition-duration: 2s;
-  transition-delay: 1.5s;
-  }
-
-  .layout .s5 #deep_s5 #p_s5 #p_letter.visible{
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    opacity: 1;
   }
 
   .layout .s5 #deep_s5 #p_s5 #p_text{
@@ -756,58 +654,127 @@
     padding: 0px;
     font-size: 1rem;
     transition-timing-function: ease-in-out all;
-    transition-duration: 3s;
-    transition-delay: 3.5s;
+    transition-duration: 1s;
+    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #p_s5 #p_text.visible{
     opacity: 1;
     }
 
-  .layout .s5 #deep_s5 #soul_text{
-  position: absolute;
-  top: 57%;
-  left: 45%;
-  font-size: 4rem;
-  opacity: 0.8;
-  color: rgb(48, 48, 48);
-  }
 
-/************ E1 letter ************/
+/************ Service 5 ************/
 
 
+    .layout .s5 #deep_s5 #service_5{
+      position: absolute;
+      opacity: 0;
+      top: 50%;
+      left: 50%;
+      width: 28%;
+      transform: translate(-20%, -20%);
+      transition-timing-function: ease-in-out all;
+      transition-duration: 1s;
+      transition-delay: 2s;
+    }
+  
+    .layout .s5 #deep_s5 #service_5.visible{
+      opacity: 1;
+      top: 76%;
+      left: 72%;
+      transform: translate(-20%, -100%);
+    }
+  
+    .layout .s5 #deep_s5 #service_5 #service_5_title{
+      opacity: 0;
+      color: rgb(255, 255, 255);
+      top: 40%;
+      left: 50%;
+      font-size: 2rem;
+      transform: translate(-30%, -60%);
+      transition-timing-function: ease-in-out all;
+      transition-duration: 1s;
+      transition-delay: 2s;
+    }
+    
+     .layout .s5 #deep_s5 #service_5 #service_5_title.visible{
+      opacity: 1;
+      font-size: 2rem;
+    }
+  
+    .layout .s5 #deep_s5 #service_5 #service_5_text{
+      opacity: 0;
+      position: absolute;
+      text-align: justify;
+      font-weight: 400;
+      font-size: 1rem;
+      transition-timing-function: ease-in-out all;
+      transition-duration: 1s;
+      transition-delay: 2s;
+    }
+  
+    .layout .s5 #deep_s5 #service_5 #service_5_text.visible{
+      opacity: 1;
+    }
+  
 
-/*
+    /************ Service 6 ************/
 
-  .layout .s5 #deepsoulpulse_s5 #letter2_s5{
-    left: 40%;
-  }
 
-  .layout .s5 #deepsoulpulse_s5 #letter3_s5{
-    left: 44%;
-  }
+    .layout .s5 #deep_s5 #service_6{
+      position: absolute;
+      opacity: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-30%, -60%);
+      transition-timing-function: ease-in-out all;
+      transition-duration: 1s;
+      transition-delay: 2s;
+    }
+  
+    .layout .s5 #deep_s5 #service_6.visible{
+      opacity: 1;
+      top: 40%;
+      left: 70%;
+      transform: translate(-10%, -10%);
+    }
+  
+    .layout .s5 #deep_s5 #service_6 #service_6_title{
+      opacity: 0;
+      font-size: 1.5rem;
+      color: rgb(255, 255, 255);
+      top: 40%;
+      left: 50%;
+      display: inline-block;
+      padding-left: 15px;
+      transform: translate(-10%, -3%);
+      transition-timing-function: ease-in-out all;
+      transition-duration: 1s;
+      transition-delay: 2s;
+    }
+    
+     .layout .s5 #deep_s5 #service_6 #service_6_title.visible{
+      opacity: 1;
+      line-height: 1.5em;
+    }
+  
+    .layout .s5 #deep_s5 #service_6 #service_6_text{
+      opacity: 0;
+      position: absolute;
+      text-align: justify;
+      font-weight: 400;
+      margin: 0px;
+      padding: 0px;
+      font-size: 1rem;
+      transition-timing-function: ease-in-out all;
+      transition-duration: 1s;
+      transition-delay: 2s;
+    }
+  
+    .layout .s5 #deep_s5 #service_6 #service_6_text.visible{
+      opacity: 1;
+    }
 
-  .layout .s5 #deepsoulpulse_s5 #letter4_s5{
-    left: 48%;
-  }
-
-  .layout .s5 #deepsoulpulse_s5 #letter5_s5{
-    left: 52%;
-  }
-
-  .layout .s5 #deepsoulpulse_s5 #letter6_s5{
-    left: 56%;
-  }
-
-  .layout .s5 #deepsoulpulse_s5 #letter7_s5{
-    left: 60%;
-  }
-
-  .layout .s5 #deepsoulpulse_s5 #letter8_s5{
-    left: 64%;
-  }
-
-  */
 
     /*************    SECTION 6    **************/
 
@@ -828,12 +795,12 @@
   }
 
   .layout .s6 #dog_img.izquierda{
-    transform: translateX(-1000px);
+    transform: translateX(-850px);
   }
 
 
   .layout .s6 #flower_img.derecha{
-    transform: translateX(1000px);
+    transform: translateX(850px);
   }
 
   .layout .s6 #dog_img.visible{
@@ -866,7 +833,9 @@
 
     
   .layout .s8 {
-    background-image: linear-gradient(to bottom, #ef550d, #e55126, #d95035, #cb4f40, #bc5049, #bb4e49, #b94c4a, #b84a4a, #c54444, #d23d3c, #de3434, #e9292a);
+    background-image: 
+    linear-gradient(to bottom, rgba(239, 85, 13, 0.95), rgba(229, 81, 38, 0.9), rgba(217, 80, 53, 0.85), rgba(203, 79, 64, 0.8), rgba(188, 80, 73, 0.75), rgba(187, 78, 73, 0.7), rgba(185, 76, 74, 0.65), rgba(184, 74, 74, 0.70), rgba(197, 68, 68, 0.75), rgba(210, 61, 60, 0.8), rgba(222, 52, 52, 0.85), rgba(233, 41, 42, 0.90)),
+    url("../images/red.JPG");
     z-index: 1;
   }
 
