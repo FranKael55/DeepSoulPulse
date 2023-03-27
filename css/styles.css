@@ -154,7 +154,7 @@
 
 
   .layout .s1 {
-    background-image: linear-gradient(to bottom, #434343, #4c4c4c, #555555, #5e5e5e, #686868, #767577, #868386, #969094, #b3a4a6, #cebab4, #e3d3c2, #eeefd5);
+/*     background-image: linear-gradient(to bottom, #434343, #4c4c4c, #555555, #5e5e5e, #686868, #767577, #868386, #969094, #b3a4a6, #cebab4, #e3d3c2, #eeefd5); */
     transform: translateY(0);
     z-index: 4;
   }
@@ -165,7 +165,7 @@
 
   .layout .s2 {
     background: rgb(255,255,255);
-    background-image: linear-gradient(to bottom, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5);
+/*     background-image: linear-gradient(to bottom, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5, #eeefd5); */
     z-index: 3;
   }
 
@@ -225,8 +225,8 @@
 
   .layout .s3 {
     z-index: 2;
-    background: rgb(63,239,217);
-    background-image: linear-gradient(to bottom, #eeefd5, #e6d7c6, #d6c2bb, #bfb0b1, #a69fa3, #988c96, #867a8c, #716a83, #61537c, #533c74, #46236a, #3a015f);
+    background: rgb(255,255,255);
+/*     background-image: linear-gradient(to bottom, #eeefd5, #e6d7c6, #d6c2bb, #bfb0b1, #a69fa3, #988c96, #867a8c, #716a83, #61537c, #533c74, #46236a, #3a015f); */
     opacity: 1;
   }
 
@@ -236,7 +236,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    color: #ffffff;
+    color: #525252;
     font-size: 2rem;
   }
 
@@ -308,8 +308,8 @@
 
     
   .layout .s4 {
-    background: rgb(54,51,216);
-    background-image: linear-gradient(to bottom, #3a015f, #400e62, #461965, #4c2367, #512c6a, #4d3773, #48417b, #444a81, #31568a, #19628e, #006c8f, #03758d);
+    background: rgb(255,255,255);
+/*     background-image: linear-gradient(to bottom, #3a015f, #400e62, #461965, #4c2367, #512c6a, #4d3773, #48417b, #444a81, #31568a, #19628e, #006c8f, #03758d); */
     z-index: 1;
   }
 
@@ -320,7 +320,7 @@
     "title_1_s4 title_1_s4"
     "section_1 section_2"
     "section_3 section_4";
-    color: #ffffff;
+    color: #525252;
     font-size: 30px;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -434,8 +434,8 @@
 
     
   .layout .s5 {
-    background: rgb(225,70,217);
-    background-image: linear-gradient(to bottom, #03758d, #17778b, #237989, #2d7a87, #367c85, #288388, #178988, #009087, #009c7f, #00a76e, #04b054, #47b82d);
+    background: rgb(255,255,255);
+/*     background-image: linear-gradient(to bottom, #03758d, #17778b, #237989, #2d7a87, #367c85, #288388, #178988, #009087, #009c7f, #00a76e, #04b054, #47b82d); */
     z-index: 1;
   }
 
@@ -468,7 +468,6 @@
 
   .layout .s5 #deep_s5 #d_s5 #d_letters{
     opacity: 0;
-    color: rgb(255, 255, 255);
     top: 40%;
     left: 50%;
     font-size: 2rem;
@@ -479,6 +478,7 @@
   }
   
    .layout .s5 #deep_s5 #d_s5 #d_letters.visible{
+    color: #525252;
     opacity: 1;
     font-size: 2rem;
   }
@@ -495,6 +495,7 @@
   }
 
   .layout .s5 #deep_s5 #d_s5 #d_text.visible{
+    color: #525252;
     opacity: 1;
   }
 
@@ -520,7 +521,7 @@
 
   .layout .s5 #deep_s5 #e1_s5 #e1_letters{
     opacity: 0;
-    color: rgb(255, 255, 255);
+    color: #525252;
     top: 40%;
     left: 50%;
     font-size: 2rem;
@@ -549,6 +550,7 @@
   }
 
   .layout .s5 #deep_s5 #e1_s5 #e1_text.visible{
+    color: #525252;
     opacity: 1;
   }
 
@@ -574,7 +576,7 @@
 
   .layout .s5 #deep_s5 #e2_s5 #e2_letters{
     opacity: 0;
-    color: rgb(255, 255, 255);
+    color: #525252;
     top: 40%;
     left: 50%;
     font-size: 2rem;
@@ -603,6 +605,7 @@
   }
 
   .layout .s5 #deep_s5 #e2_s5 #e2_text.visible{
+    color: #525252;
     opacity: 1;
   }
 
@@ -629,7 +632,7 @@
 
   .layout .s5 #deep_s5 #p_s5 #p_letters{
     opacity: 0.8%;
-    color: rgb(255, 255, 255);
+    color: #525252;
     top: 40%;
     left: 50%;
     font-size: 2rem;
@@ -659,6 +662,7 @@
   }
 
   .layout .s5 #deep_s5 #p_s5 #p_text.visible{
+    color: #525252;
     opacity: 1;
     }
 
@@ -687,7 +691,7 @@
   
     .layout .s5 #deep_s5 #service_5 #service_5_title{
       opacity: 0;
-      color: rgb(255, 255, 255);
+      color: #525252;
       top: 40%;
       left: 50%;
       font-size: 2rem;
@@ -714,6 +718,7 @@
     }
   
     .layout .s5 #deep_s5 #service_5 #service_5_text.visible{
+      color: #525252;
       opacity: 1;
     }
   
@@ -742,7 +747,7 @@
     .layout .s5 #deep_s5 #service_6 #service_6_title{
       opacity: 0;
       font-size: 1.5rem;
-      color: rgb(255, 255, 255);
+      color: #525252;
       top: 40%;
       left: 50%;
       display: inline-block;
@@ -772,6 +777,7 @@
     }
   
     .layout .s5 #deep_s5 #service_6 #service_6_text.visible{
+      color: #525252;
       opacity: 1;
     }
 
@@ -780,8 +786,9 @@
 
     
   .layout .s6 {
-    background: rgb(238,40,25);
-    background-image: linear-gradient(to bottom, #47b82d, #65b52e, #7ab133, #8aad3a, #97aa43, #a1ab43, #aaab43, #b4ac44, #c2b039, #d1b22d, #e1b51f, #f2b60a);
+    color: #525252;
+    background: rgb(255,255,255);
+/*     background-image: linear-gradient(to bottom, #47b82d, #65b52e, #7ab133, #8aad3a, #97aa43, #a1ab43, #aaab43, #b4ac44, #c2b039, #d1b22d, #e1b51f, #f2b60a); */
     z-index: 1;
   }
 
@@ -823,8 +830,9 @@
 
     
   .layout .s7 {
-    background: rgb(152,252,61);
-    background-image: linear-gradient(to bottom, #f2b60a, #e7a827, #db9b36, #cd8f41, #bd8449, #bb7e46, #b97843, #b77240, #c46d33, #d26727, #e05f1b, #ef550d);
+    color: #525252;
+    background: rgb(255,255,255);
+/*     background-image: linear-gradient(to bottom, #f2b60a, #e7a827, #db9b36, #cd8f41, #bd8449, #bb7e46, #b97843, #b77240, #c46d33, #d26727, #e05f1b, #ef550d); */
     z-index: 1;
   }
 
@@ -833,9 +841,10 @@
 
     
   .layout .s8 {
-    background-image: 
-    linear-gradient(to bottom, rgba(239, 85, 13, 0.95), rgba(229, 81, 38, 0.9), rgba(217, 80, 53, 0.85), rgba(203, 79, 64, 0.8), rgba(188, 80, 73, 0.75), rgba(187, 78, 73, 0.7), rgba(185, 76, 74, 0.65), rgba(184, 74, 74, 0.70), rgba(197, 68, 68, 0.75), rgba(210, 61, 60, 0.8), rgba(222, 52, 52, 0.85), rgba(233, 41, 42, 0.90)),
-    url("../images/red.JPG");
+    color: #525252;
+/*     background-image:  */
+/*     linear-gradient(to bottom, rgba(239, 85, 13, 0.95), rgba(229, 81, 38, 0.9), rgba(217, 80, 53, 0.85), rgba(203, 79, 64, 0.8), rgba(188, 80, 73, 0.75), rgba(187, 78, 73, 0.7), rgba(185, 76, 74, 0.65), rgba(184, 74, 74, 0.70), rgba(197, 68, 68, 0.75), rgba(210, 61, 60, 0.8), rgba(222, 52, 52, 0.85), rgba(233, 41, 42, 0.90)), */
+/*     url("../images/red.JPG"); */
     z-index: 1;
   }
 
