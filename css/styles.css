@@ -185,7 +185,8 @@
     font-weight: 800;
     opacity: 0;
     transform: scale(0.9);
-    transition: 1s ease-in-out all;
+    transition-timing-function: ease-in-out all;
+    transition-duration: 1s;
   }
 
   .layout .s2 #s2_content #texto_1_s2.izquierda{
@@ -205,7 +206,8 @@
   .layout .s2 #s2_content #texto_2_s2{
     font-weight: 800;
     opacity: 0;
-    transition: 1s ease-in-out all;
+    transition-timing-function: ease-in-out all;
+    transition-duration: 1s;
   }
 
   .layout .s2 #s2_content #texto_2_s2.derecha{
@@ -247,7 +249,8 @@
     font-weight: 800;
     opacity: 0;
     transform: scale(0.9);
-    transition: 1s ease-in-out all;
+    transition-timing-function: ease-in-out all;
+    transition-duration: 1s;
   }
 
   .layout .s3 #s3_content #title_1_s3.izquierda{
@@ -268,7 +271,8 @@
       font-weight: 800;
       opacity: 0;
       transform: scale(0.9);
-      transition: 1s ease-in-out all;
+      transition-timing-function: ease-in-out all;
+      transition-duration: 1s;
     }
   
     .layout .s3 #s3_content #text_1_s3.derecha{
@@ -289,7 +293,8 @@
       font-weight: 800;
       opacity: 0;
       transform: scale(0.9);
-      transition: 1s ease-in-out all;
+      transition-timing-function: ease-in-out all;
+      transition-duration: 1s;
     }
   
     .layout .s3 #s3_content #text_2_s3.izquierda{
