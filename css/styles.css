@@ -203,7 +203,6 @@
 
 
   .layout .s2 #s2_content #texto_2_s2{
-    transition-delay: 1s;
     font-weight: 800;
     opacity: 0;
     transition: 1s ease-in-out all;
@@ -335,7 +334,6 @@
     transform: scale(0.5);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 1;
   }
 
   .layout .s4 #s4_content #title_1_s4.visible{
@@ -352,7 +350,6 @@
     transform: scale(0.9);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 1.1s;
   }
 
   .layout .s4 #s4_content #area_1_s4.izquierda{
@@ -373,7 +370,6 @@
     transform: scale(0.9);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 1.6s;
   }
 
   .layout .s4 #s4_content #area_2_s4.arriba{
@@ -394,7 +390,6 @@
     transform: scale(0.9);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 1.6s;
   }
 
   .layout .s4 #s4_content #area_3_s4.abajo{
@@ -413,9 +408,8 @@
     width: 70%;
     opacity: 0;
     transform: scale(0.9);
-    transition-timing-function: ease-in-out all;
+    transition-timing-function: ease-in-out;
     transition-duration: 1s;
-    transition-delay: 1.1s;
   }
 
   .layout .s4 #s4_content #area_4_s4.derecha{
@@ -456,7 +450,7 @@
     transform: translate(-20%, -20%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
+
   }
 
   .layout .s5 #deep_s5 #d_s5.visible{
@@ -474,8 +468,8 @@
     transform: translate(-30%, -60%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
   }
+  
   
    .layout .s5 #deep_s5 #d_s5 #d_letters.visible{
     color: #525252;
@@ -491,7 +485,6 @@
     font-size: 1rem;
     transition-timing-function: ease-in-out all;
     transition-duration: 2s;
-    transition-delay: 1s;
   }
 
   .layout .s5 #deep_s5 #d_s5 #d_text.visible{
@@ -509,7 +502,6 @@
     transform: translate(-11%, -20%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #e1_s5.visible{
@@ -528,7 +520,6 @@
     transform: translate(-30%, -60%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
   }
   
    .layout .s5 #deep_s5 #e1_s5 #e1_letters.visible{
@@ -546,7 +537,6 @@
     font-size: 1rem;
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #e1_s5 #e1_text.visible{
@@ -564,7 +554,6 @@
     transform: translate(-1%, -20%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #e2_s5.visible{
@@ -583,7 +572,6 @@
     transform: translate(-30%, -60%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
   }
   
    .layout .s5 #deep_s5 #e2_s5 #e2_letters.visible{
@@ -601,7 +589,6 @@
     font-size: 1rem;
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #e2_s5 #e2_text.visible{
@@ -620,7 +607,6 @@
     transform: translate(-30%, -60%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #p_s5.visible{
@@ -639,7 +625,6 @@
     transform: translate(-30%, -60%);
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
   }
   
    .layout .s5 #deep_s5 #p_s5 #p_letters.visible{
@@ -658,7 +643,6 @@
     font-size: 1rem;
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 2s;
   }
 
   .layout .s5 #deep_s5 #p_s5 #p_text.visible{
@@ -679,7 +663,6 @@
       transform: translate(-20%, -20%);
       transition-timing-function: ease-in-out all;
       transition-duration: 1s;
-      transition-delay: 2s;
     }
   
     .layout .s5 #deep_s5 #service_5.visible{
@@ -698,7 +681,7 @@
       transform: translate(-30%, -60%);
       transition-timing-function: ease-in-out all;
       transition-duration: 1s;
-      transition-delay: 2s;
+
     }
     
      .layout .s5 #deep_s5 #service_5 #service_5_title.visible{
@@ -714,7 +697,6 @@
       font-size: 1rem;
       transition-timing-function: ease-in-out all;
       transition-duration: 1s;
-      transition-delay: 2s;
     }
   
     .layout .s5 #deep_s5 #service_5 #service_5_text.visible{
@@ -734,7 +716,6 @@
       transform: translate(-30%, -60%);
       transition-timing-function: ease-in-out all;
       transition-duration: 1s;
-      transition-delay: 2s;
     }
   
     .layout .s5 #deep_s5 #service_6.visible{
@@ -755,7 +736,6 @@
       transform: translate(-10%, -3%);
       transition-timing-function: ease-in-out all;
       transition-duration: 1s;
-      transition-delay: 2s;
     }
     
      .layout .s5 #deep_s5 #service_6 #service_6_title.visible{
@@ -773,7 +753,6 @@
       font-size: 1rem;
       transition-timing-function: ease-in-out all;
       transition-duration: 1s;
-      transition-delay: 2s;
     }
   
     .layout .s5 #deep_s5 #service_6 #service_6_text.visible{
@@ -798,7 +777,6 @@
     opacity: 0;
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 1.3s;
   }
 
   .layout .s6 #dog_img.izquierda{
@@ -823,7 +801,7 @@
   .layout .s6 #flower_img{
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
-    transition-delay: 0.7s;
+
   }
 
     /*************    SECTION 7    **************/
