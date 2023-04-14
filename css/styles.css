@@ -855,7 +855,7 @@
     }
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
