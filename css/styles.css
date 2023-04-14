@@ -834,11 +834,16 @@
 
   /*** RESPONSIVE ***/
   /* MOBILE */
-  @media screen and (max-width: 576px) {
+  
+  @media screen and (max-width: 2532px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
       -webkit-appearance: none;
+    }
+    body {
+      width: 0px;
+      background-color: blue;
     }
     .layout .section-stick {
       right: 20px;
@@ -849,3 +854,44 @@
       font-size: 40px;
     }
   }
+
+  @media screen and (max-width: 1536px) {
+    body::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+      -webkit-appearance: none;
+    }
+    body {
+      width: 0px;
+      background-color: rgb(30, 255, 0);
+    }
+    .layout .section-stick {
+      right: 20px;
+      bottom: 20px;
+      transform: scale(0.7);
+    }
+    .layout section {
+      font-size: 40px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    body::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+      -webkit-appearance: none;
+    }
+    body {
+      width: 0px;
+      background-color: rgb(255, 0, 0);
+    }
+    .layout .section-stick {
+      right: 20px;
+      bottom: 20px;
+      transform: scale(0.7);
+    }
+    .layout section {
+      font-size: 40px;
+    }
+  }
+
