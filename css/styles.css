@@ -835,7 +835,7 @@
   /*** RESPONSIVE ***/
   /* MOBILE */
   
-  @media screen and (max-width: 2532px) {
+  @media screen and (max-width: 2531px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -843,7 +843,7 @@
     }
     body {
       width: 0px;
-      background-color: blue;
+      background-color: rgb(247, 0, 255);
     }
     .layout .section-stick {
       right: 20px;
@@ -855,7 +855,7 @@
     }
   }
 
-  @media screen and (max-width: 1536px) {
+  @media screen and (max-width: 1170px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -863,7 +863,7 @@
     }
     body {
       width: 0px;
-      background-color: rgb(30, 255, 0);
+      background-color: rgb(255, 238, 0);
     }
     .layout .section-stick {
       right: 20px;
