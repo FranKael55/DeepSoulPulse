@@ -836,7 +836,7 @@
   /* MOBILE */
   
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 320px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -857,7 +857,7 @@
   }
 
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -886,7 +886,7 @@
     }
     body {
       width: 0px;
-      background-color: rgb(190, 175, 255);
+      background-color: rgb(255, 175, 175);
     }
     .layout .section-stick {
       right: 20px;
