@@ -854,10 +854,27 @@
     .layout section {
       font-size: 40px;
     }
+
+    .layout .s2 #s2_content{
+      font-size: 1.1rem;
+    }
+
+    .layout .s3 #s3_content{
+      font-size: 1.1rem;
+    }
+
+    .layout .s4 #s4_content{
+      font-size: 1.1px;
   }
 
+  .layout .s4 #s4_content #title_1_s4.visible{
+    font-size: 1rem;
+  }
+}
+/*-------------------------------- 481px --------------------------------*/
 
-  @media screen and (min-width: 481px) {
+
+  @media screen and (orientation: portrait) and (min-width: 481px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -896,6 +913,9 @@
       font-size: 40px;
     }
   }
+
+
+/*-------------------------------- 769px --------------------------------*/
 
 
   @media screen and (orientation: portrait) and (min-width: 769px) {
@@ -938,7 +958,11 @@
     }
   }
 
-  @media screen and (min-width: 1025px) {
+
+/*-------------------------------- 1025px --------------------------------*/
+
+
+  @media screen and (orientation: portrait) and (min-width: 1025px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -978,7 +1002,11 @@
     }
   }
 
-  @media screen and (min-width: 1201px) {
+  
+/*-------------------------------- 1201px --------------------------------*/
+
+
+  @media screen and (orientation: portrait) and (min-width: 1201px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
