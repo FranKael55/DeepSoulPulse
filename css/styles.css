@@ -836,7 +836,7 @@
   /* MOBILE */
   
 
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 321px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -857,7 +857,7 @@
   }
 
 
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 768px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
