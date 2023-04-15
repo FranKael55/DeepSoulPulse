@@ -856,7 +856,8 @@
     }
   }
 
-  @media screen and (orientation: landscape) and (min-width: 320px) {
+
+  @media screen and (min-width: 481px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -864,7 +865,7 @@
     }
     body {
       width: 0px;
-      background-color: rgb(54, 15, 15);
+      background-color: rgb(175, 255, 248);
     }
     .layout .section-stick {
       right: 20px;
@@ -876,8 +877,7 @@
     }
   }
 
-
-  @media screen and (min-width: 481px) {
+  @media screen and (orientation: landscape) and (min-width: 481px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -885,7 +885,7 @@
     }
     body {
       width: 0px;
-      background-color: rgb(175, 255, 248);
+      background-color: rgb(54, 15, 15);
     }
     .layout .section-stick {
       right: 20px;
