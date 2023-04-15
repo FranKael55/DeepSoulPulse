@@ -898,7 +898,7 @@
   }
 
 
-  @media screen and (min-width: 769px) {
+  @media screen and (orientation: portrait) and (min-width: 769px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -918,6 +918,25 @@
     }
   }
 
+  @media screen and (orientation: landscape) and (min-width: 769px) {
+    body::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+      -webkit-appearance: none;
+    }
+    body {
+      width: 0px;
+      background-color: rgb(54, 15, 15);
+    }
+    .layout .section-stick {
+      right: 20px;
+      bottom: 20px;
+      transform: scale(0.7);
+    }
+    .layout section {
+      font-size: 40px;
+    }
+  }
 
   @media screen and (min-width: 1025px) {
     body::-webkit-scrollbar {
@@ -939,6 +958,26 @@
     }
   }
 
+  @media screen and (orientation: landscape) and (min-width: 1025px) {
+    body::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+      -webkit-appearance: none;
+    }
+    body {
+      width: 0px;
+      background-color: rgb(54, 15, 15);
+    }
+    .layout .section-stick {
+      right: 20px;
+      bottom: 20px;
+      transform: scale(0.7);
+    }
+    .layout section {
+      font-size: 40px;
+    }
+  }
+
   @media screen and (min-width: 1201px) {
     body::-webkit-scrollbar {
       width: 0px;
@@ -948,6 +987,26 @@
     body {
       width: 0px;
       background-color: rgb(255, 0, 255);
+    }
+    .layout .section-stick {
+      right: 20px;
+      bottom: 20px;
+      transform: scale(0.7);
+    }
+    .layout section {
+      font-size: 40px;
+    }
+  }
+
+  @media screen and (orientation: landscape) and (min-width: 1201px) {
+    body::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+      -webkit-appearance: none;
+    }
+    body {
+      width: 0px;
+      background-color: rgb(54, 15, 15);
     }
     .layout .section-stick {
       right: 20px;
