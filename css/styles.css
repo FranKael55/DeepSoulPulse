@@ -886,8 +886,11 @@
   }
 
   .layout .s4 #s4_content #title_1_s4.visible{
-    font-size: 1.6rem;
-    padding-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  .layout .s4 #s4_content #area_1_s4 h4{
+    margin-bottom: 0px;
   }
 
   .layout .s4 #s4_content #text_1_s4{
@@ -900,6 +903,10 @@
     font-size: 1rem;
   }
 
+  .layout .s4 #s4_content #area_2_s4 h4{
+    margin-bottom: 0px;
+  }
+
   .layout .s4 #s4_content #text_2_s4{
     visibility: hidden;
     position: absolute;
@@ -908,6 +915,10 @@
   .layout .s4 #s4_content #text_2_s4_reduced{
     visibility: visible;
     font-size: 1rem;
+  }
+
+  .layout .s4 #s4_content #area_3_s4 h4{
+    margin-bottom: 0px;
   }
 
   .layout .s4 #s4_content #text_3_s4{
@@ -920,7 +931,10 @@
     font-size: 1rem;
   }
 
-  
+  .layout .s4 #s4_content #area_4_s4 h4{
+    margin-bottom: 0px;
+  }
+
   .layout .s4 #s4_content #text_4_s4{
     visibility: hidden;
     position: absolute;
