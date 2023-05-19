@@ -58,36 +58,23 @@ window.onscroll = () => {
 // ---------------------------  Effects  ---------------------------
 
 // Variables & Constants
-
-const texto_1_s2 = document.getElementById('texto_1_s2');
-const texto_2_s2 = document.getElementById('texto_2_s2');
+const title_1_s2 = document.getElementById('title_1_s2');
+const text_1_s2 = document.getElementById('text_1_s2');
 const title_1_s3 = document.getElementById('title_1_s3');
 const text_1_s3 = document.getElementById('text_1_s3');
 const title_1_s4 = document.getElementById('title_1_s4');
-const area_1_s4 = document.getElementById('area_1_s4');
-const area_2_s4 = document.getElementById('area_2_s4');
-const area_3_s4 = document.getElementById('area_3_s4');
-const area_4_s4 = document.getElementById('area_4_s4');
-const dog_img = document.getElementById('dog_img');
-const flower_img = document.getElementById('flower_img');
-const d_s5 = document.getElementById('d_s5');
-const d_letters = document.getElementById('d_letters');
-const d_text = document.getElementById('d_text');
-const e1_s5 = document.getElementById('e1_s5');
-const e1_letters = document.getElementById('e1_letters');
-const e1_text = document.getElementById('e1_text');
-const e2_s5 = document.getElementById('e2_s5');
-const e2_letters = document.getElementById('e2_letters');
-const e2_text = document.getElementById('e2_text');
-const p_s5 = document.getElementById('p_s5');
-const p_letters = document.getElementById('p_letters');
-const p_text = document.getElementById('p_text');
-const service_5 = document.getElementById('service_5');
-const service_5_title = document.getElementById('service_5_title');
-const service_5_text = document.getElementById('service_5_text');
-const service_6 = document.getElementById('service_6');
-const service_6_title = document.getElementById('service_6_title');
-const service_6_text = document.getElementById('service_6_text');
+const text_1_s4 = document.getElementById('text_1_s4');
+const title_1_s5 = document.getElementById('title_1_s5');
+const text_1_s5 = document.getElementById('text_1_s5');
+const title_1_s6 = document.getElementById('title_1_s6');
+const text_1_s6 = document.getElementById('text_1_s6');
+const text_2_s6 = document.getElementById('text_2_s6');
+const title_1_s7 = document.getElementById('title_1_s7');
+const text_1_s7 = document.getElementById('text_1_s7');
+const title_1_s8 = document.getElementById('title_1_s8');
+const text_1_s8 = document.getElementById('text_1_s8');
+const text_2_s8 = document.getElementById('text_2_s8');
+
 
 
 const cargarImagen = (entradas, observador) => {
@@ -107,32 +94,19 @@ const observador = new IntersectionObserver(cargarImagen, {
     threshold: 0
 });
 
-observador.observe(texto_1_s2);
-observador.observe(texto_2_s2);
+observador.observe(title_1_s2);
+observador.observe(text_1_s2);
 observador.observe(title_1_s3);
 observador.observe(text_1_s3);
 observador.observe(title_1_s4);
-observador.observe(area_1_s4);
-observador.observe(area_2_s4);
-observador.observe(area_3_s4);
-observador.observe(area_4_s4);
-observador.observe(dog_img);
-observador.observe(flower_img);
-observador.observe(d_letters);
-observador.observe(d_text);
-observador.observe(d_s5);
-observador.observe(e1_letters);
-observador.observe(e1_text);
-observador.observe(e1_s5);
-observador.observe(e2_letters);
-observador.observe(e2_text);
-observador.observe(e2_s5);
-observador.observe(p_letters);
-observador.observe(p_text);
-observador.observe(p_s5);
-observador.observe(service_5);
-observador.observe(service_5_title);
-observador.observe(service_5_text);
-observador.observe(service_6);
-observador.observe(service_6_title);
-observador.observe(service_6_text);
+observador.observe(text_1_s4);
+observador.observe(title_1_s5);
+observador.observe(text_1_s5);
+observador.observe(title_1_s6);
+observador.observe(text_1_s6);
+observador.observe(text_2_s6);
+observador.observe(title_1_s7);
+observador.observe(text_1_s7);
+observador.observe(title_1_s8);
+observador.observe(text_1_s8);
+observador.observe(text_2_s8);
