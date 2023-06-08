@@ -149,6 +149,21 @@
     }
 
 
+  .title_style{
+    font-size: 3.6rem;
+    font-family: Nunito;
+    font-weight: 400;
+    color: #525252;
+  }
+
+  .text_style{
+    font-family: PT Sans;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #525252;
+  }
+
+
     /*************    SECTION 1    **************/
 
   .layout .s1 {
@@ -169,7 +184,6 @@
 
   .layout .s2 #s2_content{
     width: 70%;
-    color: #525252;
     display: flex;
     flex-direction: column;
   }
@@ -179,9 +193,6 @@
 
 
   .layout .s2 #s2_content #title_1_s2{
-    font-size: 3.6rem;
-    font-family: Nunito;
-    font-weight: 400;
     margin-bottom: 30px;
     opacity: 0;
     transform: scale(0.9);
@@ -204,9 +215,6 @@
 
 
   .layout .s2 #s2_content #text_1_s2{
-    font-family: PT Sans;
-    font-size: 1.7rem;
-    font-weight: 400;
     opacity: 0;
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
@@ -238,7 +246,6 @@
     width: 70%;
     display: flex;
     flex-direction: column;
-    color: #525252;
   }
 
 
@@ -246,9 +253,6 @@
 
 
    .layout .s3 #s3_content #title_1_s3{
-    font-size: 3.6rem;
-    font-family: Nunito;
-    font-weight: 400;
     margin-bottom: 30px;
     opacity: 0;
     transform: scale(0.9);
@@ -271,9 +275,6 @@
 
 
     .layout .s3 #s3_content #text_1_s3{
-      font-family: PT Sans;
-      font-size: 1.7rem;
-      font-weight: 400;
       opacity: 0;
       transform: scale(0.9);
       transition-timing-function: ease-in-out all;
@@ -295,9 +296,6 @@
 
 
     .layout .s3 #s3_content #text_2_s3{
-      font-family: PT Sans;
-      font-size: 1.7rem;
-      font-weight: 400;
       opacity: 0;
       transform: scale(0.9);
       transition-timing-function: ease-in-out all;
@@ -327,16 +325,12 @@
   .layout .s4 #s4_content{
     width: 70%;
     top: 10%;
-    color: #525252;
     display: flex;
     flex-direction: column;
   }
 
 
   .layout .s4 #s4_content #title_1_s4{
-    font-size: 3.6rem;
-    font-family: Nunito;
-    font-weight: 400;
     margin-bottom: 30px;
     opacity: 0;
     transform: scale(0.9);
@@ -350,7 +344,6 @@
 
   .layout .s4 #s4_content #title_1_s4.visible{
     opacity: 1;
-    color: #525252;
     transform: scale(1);
     transform: translateX(0);
   }
@@ -360,9 +353,6 @@
 
 
   .layout .s4 #s4_content #text_1_s4{
-    font-family: PT Sans;
-    font-size: 1.7rem;
-    font-weight: 400;
     opacity: 0;
     transition-timing-function: ease-in-out all;
     transition-duration: 1s;
@@ -374,7 +364,6 @@
 
   .layout .s4 #s4_content #text_1_s4.visible{
     opacity: 1;
-    color: #525252;
     transform: scale(1);
     transform: translateX(0);
   }
@@ -396,7 +385,6 @@
     width: 70%;
     display: flex;
     flex-direction: column;
-    color: #525252;
   }
 
 
@@ -404,9 +392,6 @@
 
 
    .layout .s5 #s5_content #title_1_s5{
-    font-size: 3.6rem;
-    font-family: Nunito;
-    font-weight: 400;
     margin-bottom: 30px;
     opacity: 0;
     transform: scale(0.9);
@@ -429,9 +414,6 @@
 
 
     .layout .s5 #s5_content #text_1_s5{
-      font-family: PT Sans;
-      font-size: 1.7rem;
-      font-weight: 400;
       opacity: 0;
       transform: scale(0.9);
       transition-timing-function: ease-in-out all;
@@ -449,8 +431,6 @@
     }
 
 
-
-
     /*************    SECTION 6    **************/
 
     .layout .s6 {
@@ -465,66 +445,34 @@
       width: 70%;
       display: flex;
       flex-direction: column;
-      color: #525252;
     }
   
-  
-      /*SECTION 6  - Title*/
-  
-  
-     .layout .s6 #s6_content #title_1_s6{
-      font-size: 3.6rem;
-      font-family: Nunito;
-      font-weight: 400;
-      margin-bottom: 10px;
-      opacity: 0;
-      transform: scale(0.9);
-      transition-timing-function: ease-in-out all;
-      transition-duration: 1s;
-    }
-  
-    .layout .s6 #s6_content #title_1_s5.derecha{
-      transform:translateX(-100px);
-    }
-  
-    .layout .s6 #s6_content #title_1_s6.visible{
-      opacity: 1;
-      transform: scale(1);
-      transform: translateX(0);
-    }
-  
-  
-      /*SECTION 6  - Text 1*/
-  
-  
-      .layout .s6 #s6_content #text_1_s6{
-        font-family: PT Sans;
-        font-size: 1.7rem;
-        font-weight: 400;
-        opacity: 0;
-        transform: scale(0.9);
-        transition-timing-function: ease-in-out all;
-        transition-duration: 1s;
+
+       /*SECTION 6  - Text 2*/
+
+
+     .layout .s6 #s6_content #text_1_s6{
+         opacity: 0;
+         transform: scale(0.9);
+         transition-timing-function: ease-in-out all;
+         transition-duration: 1s;
       }
-    
-      .layout .s6 #s6_content #text_1_s6.izquierda{
+           
+     .layout .s6 #s6_content #text_1_s6.izquierda{
         transform:translateX(100px);
       }
-    
-      .layout .s6 #s6_content #text_1_s6.visible{
-        opacity: 1;
+           
+     .layout .s6 #s6_content #text_1_s6.visible{
+       opacity: 1;
         transform: scale(1);
         transform: translateX(0);
       }
-      
 
-            /*SECTION 6  - Text 2*/
+
+       /*SECTION 6  - Text 2*/
   
-  
+
      .layout .s6 #s6_content #text_2_s6{
-      font-family: PT Sans;
-      font-size: 1.7rem;
-      font-weight: 400;
         opacity: 0;
         transform: scale(0.9);
         transition-timing-function: ease-in-out all;
@@ -655,7 +603,6 @@
       display: flex;
       flex-direction: column;
       width: 70%;
-      color: #525252;
     }
   
   
@@ -663,9 +610,6 @@
   
   
      .layout .s7 #s7_content #title_1_s7{
-      font-size: 3.6rem;
-      font-family: Nunito;
-      font-weight: 400;
       margin-bottom: 30px;
       opacity: 0;
       transform: scale(0.9);
@@ -688,9 +632,6 @@
   
   
       .layout .s7 #s7_content #text_1_s7{
-        font-family: PT Sans;
-        font-size: 1.7rem;
-        font-weight: 400;
         opacity: 0;
         transform: scale(0.9);
         transition-timing-function: ease-in-out all;
@@ -723,7 +664,6 @@
       display: flex;
       flex-direction: column;
       width: 70%;
-      color: #525252;
     }
   
   
@@ -731,9 +671,6 @@
   
   
      .layout .s8 #s8_content #title_1_s8{
-      font-size: 3.6rem;
-      font-family: Nunito;
-      font-weight: 400;
       margin-bottom: 30px;
       opacity: 0;
       transform: scale(0.9);
@@ -756,9 +693,6 @@
   
   
       .layout .s8 #s8_content #text_1_s8{
-        font-family: PT Sans;
-        font-size: 1.7rem;
-        font-weight: 400;
         opacity: 0;
         transform: scale(0.9);
         transition-timing-function: ease-in-out all;
@@ -779,9 +713,6 @@
   
   
       .layout .s8 #s8_content #text_2_s8{
-        font-family: PT Sans;
-        font-size: 1.7rem;
-        font-weight: 400;
         opacity: 0;
         transform: scale(0.9);
         transition-timing-function: ease-in-out all;
@@ -814,86 +745,21 @@
   
 
   @media screen and (orientation: portrait) and (min-width: 320px) {
-    body {
-    }
-    .layout .s2 svg {
+    .layout svg {
       width: 20px;
     }
-    .layout .s2 #s2_content{
-      width: 75%;
+    .title_style{
+    font-size: 2.3rem;
+    font-family: Nunito;
+    font-weight: 400;
+    color: #525252;
     }
-    .layout .s2 #s2_content #title_1_s2{
-      font-size: 2.3rem;
-      margin-bottom: 30px;
-    }
-    .layout .s2 #s2_content #text_1_s2{
-      font-size: 1.22rem;
-    }
-    .layout .s3 svg {
-      width: 20px;
-    }
-    .layout .s3 #s3_content{
-      width: 75%;
-    }
-    .layout .s3 #s3_content #title_1_s3{
-      font-size: 2.3rem;
-    }
-    .layout .s3 #s3_content #text_1_s3{
-      font-size: 1.22rem;
-    }
-    .layout .s3 #s3_content #text_2_s3{
-      font-size: 1.22rem;
-    }
-    .layout .s4 svg {
-      width: 20px;
-    }
-    .layout .s4 #s4_content #title_1_s4{
-      font-size: 2.3rem;
-    }
-    .layout .s4 #s4_content #text_1_s4{
-      font-size: 1.22rem;
-    }
-    .layout .s5 svg {
-      width: 20px;
-    }
-    .layout .s5 #s5_content #title_1_s5{
-      font-size: 2.3rem;
-    }
-    .layout .s5 #s5_content #text_1_s5{
-      font-size: 1.22rem;
-    }
-    .layout .s6 svg {
-      width: 20px;
-    }
-    .layout .s6 #s6_content #title_1_s6{
-      font-size: 2.3rem;
-    }
-    .layout .s6 #s6_content #text_1_s6{
-      font-size: 1.22rem;
-    }
-    .layout .s6 #s6_content #text_2_s6{
-      font-size: 1.22rem;
-    }
-    .layout .s7 svg {
-      width: 20px;
-    }
-    .layout .s7 #s7_content #title_1_s7{
-      font-size: 2.3rem;
-    }
-    .layout .s7 #s7_content #text_1_s7{
-      font-size: 1.22rem;
-    }
-    .layout .s8 svg {
-      width: 20px;
-    }
-    .layout .s8 #s8_content #title_1_s8{
-      font-size: 2.3rem;
-    }
-    .layout .s8 #s8_content #text_1_s8{
-      font-size: 1.22rem;
-    }
-    .layout .s8 #s8_content #text_2_s8{
-      font-size: 1.22rem;
+      
+    .text_style{
+      font-family: PT Sans;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #525252;
     }
     footer{
       font-size: 0.85rem;
@@ -903,205 +769,139 @@
 
   
   @media screen and (orientation: landscape) and (min-width: 320px) {
-    body {
-    }
-    .layout .s2 svg {
+    .layout svg {
       width: 20px;
     }
     .layout .s2 #s2_content{
-      width: 75%;
-    }
-    .layout .s2 #s2_content #title_1_s2{
-      font-size: 2.3rem;
-      margin-bottom: 30px;
-    }
-    .layout .s2 #s2_content #text_1_s2{
-      font-size: 1.22rem;
-    }
-    .layout .s3 svg {
-      width: 20px;
+      width: 90%;
     }
     .layout .s3 #s3_content{
-      width: 75%;
+      width: 90%;
     }
-    .layout .s3 #s3_content #title_1_s3{
-      font-size: 2.3rem;
+    .layout .s4 #s4_content{
+      width: 90%;
     }
-    .layout .s3 #s3_content #text_1_s3{
-      font-size: 1.22rem;
+    .layout .s5 #s5_content{
+      width: 90%;
     }
-    .layout .s3 #s3_content #text_2_s3{
-      font-size: 1.22rem;
+    .layout .s6 #s6_content{
+      width: 90%;
+      padding-top: 200px;
     }
-    .layout .s4 svg {
-      width: 20px;
+    .layout .s6 #s6_content p{
+      line-height: 10px;
     }
-    .layout .s4 #s4_content #title_1_s4{
-      font-size: 2.3rem;
+    .layout .s7 #s7_content{
+      width: 90%;
     }
-    .layout .s4 #s4_content #text_1_s4{
-      font-size: 1.22rem;
+    .layout .s8 #s8_content{
+      width: 90%;
     }
-    .layout .s5 svg {
-      width: 20px;
+    .title_style{
+      font-size: 1.8rem;
+      font-family: Nunito;
+      font-weight: 400;
+      color: #525252;
+    } 
+    .text_style{
+      font-family: PT Sans;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #525252;
     }
-    .layout .s5 #s5_content #title_1_s5{
-      font-size: 2.3rem;
+    #myCarousel{
+      height: 32%;
+      padding-bottom: 40px;
     }
-    .layout .s5 #s5_content #text_1_s5{
-      font-size: 1.22rem;
-    }
-    .layout .s6 svg {
-      width: 20px;
-    }
-    .layout .s6 #s6_content #title_1_s6{
-      font-size: 2.3rem;
-    }
-    .layout .s6 #s6_content #text_1_s6{
-      font-size: 1.22rem;
-    }
-    .layout .s6 #s6_content #text_2_s6{
-      font-size: 1.22rem;
-    }
-    .layout .s7 svg {
-      width: 20px;
-    }
-    .layout .s7 #s7_content #title_1_s7{
-      font-size: 2.3rem;
-    }
-    .layout .s7 #s7_content #text_1_s7{
-      font-size: 1.22rem;
-    }
-    .layout .s8 svg {
-      width: 20px;
-    }
-    .layout .s8 #s8_content #title_1_s8{
-      font-size: 2.3rem;
-    }
-    .layout .s8 #s8_content #text_1_s8{
-      font-size: 1.22rem;
-    }
-    .layout .s8 #s8_content #text_2_s8{
-      font-size: 1.22rem;
-    }
+    .carousel-item img{
+      width: 130px;
+      padding-bottom: 30px;
+    } 
     footer{
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       width: 80%;
     }
   }
-
 
 /*-------------------------------- 769px --------------------------------*/
 
 
   @media screen and (orientation: portrait) and (min-width: 768px) {
-    body {
-    }
-    .layout .s2 svg {
+    .layout svg {
       width: 25px;
     }
-    .layout .s2 #s2_content{
-      width: 75%;
-    }
-    .layout .s2 #s2_content #title_1_s2{
+    .title_style{
       font-size: 2.8rem;
-      margin-bottom: 30px;
-    }
-    .layout .s2 #s2_content #text_1_s2{
-      font-size: 1.7rem;
-    }
-    .layout .s3 svg {
-      width: 25px;
-    }
-    .layout .s3 #s3_content{
-      width: 75%;
-    }
-    .layout .s3 #s3_content #title_1_s3{
-      font-size: 2.8rem;
-    }
-    .layout .s3 #s3_content #text_1_s3{
-      font-size: 1.7rem;
-    }
-    .layout .s3 #s3_content #text_2_s3{
-      font-size: 1.7rem;
-    }
-    .layout .s4 svg {
-      width: 25px;
-    }
-    .layout .s4 #s4_content #title_1_s4{
-      font-size: 2.8rem;
-    }
-    .layout .s4 #s4_content #text_1_s4{
-      font-size: 1.7rem;
-    }
-    .layout .s5 svg {
-      width: 25px;
-    }
-    .layout .s5 #s5_content #title_1_s5{
-      font-size: 2.8rem;
-    }
-    .layout .s5 #s5_content #text_1_s5{
-      font-size: 1.7rem;
-    }
-    .layout .s6 svg {
-      width: 25px;
-    }
-    .layout .s6 #s6_content #title_1_s6{
-      font-size: 2.8rem;
-    }
-    .layout .s6 #s6_content #text_1_s6{
-      font-size: 1.7rem;
-    }
-    .layout .s6 #s6_content #text_2_s6{
-      font-size: 1.7rem;
-    }
-    .layout .s7 svg {
-      width: 25px;
-    }
-    .layout .s7 #s7_content #title_1_s7{
-      font-size: 2.8rem;
-    }
-    .layout .s7 #s7_content #text_1_s7{
-      font-size: 1.7rem;
-    }
-    .layout .s8 svg {
-      width: 25px;
-    }
-    .layout .s8 #s8_content #title_1_s8{
-      font-size: 2.8rem;
-    }
-    .layout .s8 #s8_content #text_1_s8{
-      font-size: 1.7rem;
-    }
-    .layout .s8 #s8_content #text_2_s8{
-      font-size: 1.7rem;
-    }
+      font-family: Nunito;
+      font-weight: 400;
+      color: #525252;
+      }
+        
+      .text_style{
+        font-family: PT Sans;
+        font-size: 1.7rem;
+        font-weight: 400;
+        color: #525252;
+      }
     footer{
-      font-size: 1rem;
+      font-size: 2rem;
       width: 80%;
     }
   }
 
   @media screen and (orientation: landscape) and (min-width: 768px) {
-    body::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-      -webkit-appearance: none;
+    .layout svg {
+      width: 20px;
     }
-    
-    body {
-      width: 0px;
-      background-color: #00710ff7;
+    .layout .s2 #s2_content{
+      width: 90%;
     }
+    .layout .s3 #s3_content{
+      width: 90%;
+    }
+    .layout .s4 #s4_content{
+      width: 90%;
+    }
+    .layout .s5 #s5_content{
+      width: 90%;
+    }
+    .layout .s6 #s6_content{
+      width: 90%;
+      padding-top: 200px;
+    }
+    .layout .s6 #s6_content p{
+      line-height: 10px;
+    }
+    .layout .s7 #s7_content{
+      width: 90%;
+    }
+    .layout .s8 #s8_content{
+      width: 90%;
+    }
+    .title_style{
+      font-size: 2rem;
+      font-family: Nunito;
+      font-weight: 400;
+      color: #525252;
+    } 
+    .text_style{
+      font-family: PT Sans;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #525252;
+    }
+    #myCarousel{
+      height: 32%;
+      padding-bottom: 40px;
 
-    .layout .section-stick {
-      right: 20px;
-      bottom: 20px;
-      transform: scale(0.7);
     }
-
-    .layout section {
-      font-size: 40px;
+    .carousel-item img{
+      width: 130px;
+      padding-bottom: 30px;
+    } 
+    footer{
+      font-size: 0.8rem;
+      width: 80%;
     }
   }
 
@@ -1110,50 +910,41 @@
 
 
   @media screen and (orientation: portrait) and (min-width: 1201px) {
-    body::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-      -webkit-appearance: none;
-    }
-
-    body {
-      width: 0px;
-      background-color: #920092f7;
-    }
-
-    .layout .section-stick {
-      right: 20px;
-      bottom: 20px;
-      transform: scale(0.7);
-    }
-
-    .layout section {
-      font-size: 40px;
-    }
+    .title_style{
+      font-size: 3.6rem;
+      font-family: Nunito;
+      font-weight: 400;
+      color: #525252;
+      }
+        
+      .text_style{
+        font-family: PT Sans;
+        font-size: 1.7rem;
+        font-weight: 400;
+        color: #525252;
+      }
+      footer{
+        font-size: 1.1rem;
+        width: 80%;
+      }
   }
 
   @media screen and (orientation: landscape) and (min-width: 1201px) {
-    body::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-      -webkit-appearance: none;
-    }
-
-    body {
-      width: 0px;
-    }
-
-    .layout .section-stick {
-      right: 20px;
-      bottom: 20px;
-      transform: scale(0.7);
-    }
-
-    .layout section {
-      font-size: 40px;
-    }
-
-    .home svg{
-      height: 0.7;
-    }
+    .title_style{
+      font-size: 3.6rem;
+      font-family: Nunito;
+      font-weight: 400;
+      color: #525252;
+      }
+        
+      .text_style{
+        font-family: PT Sans;
+        font-size: 1.7rem;
+        font-weight: 400;
+        color: #525252;
+      }
+      footer{
+        font-size: 1.1rem;
+        width: 80%;
+      }
   }
